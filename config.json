@@ -1,0 +1,155 @@
+{
+  "ai":
+  {
+    "name":"Monika",
+    "programData":
+    {    
+      "version":"0.0.0.9",
+      "coreCode":"Monika-1-1",
+      "nlp":
+      {
+        "MainCore":
+        {
+          "engine":"text-davinci-003",
+          "temperature":0.84,
+          "prompt":"process.env.prompt"
+        },
+        "VerifyCore":
+        {
+          "engine":"text-davinci-003",
+          "temperature":0.34,
+          "prompt":"Femirins is an auxiliary AI of the Mobius master terminal of the Antarctic Research Institute, responsible for maintaining the operation of Avalon and terminal computing, and helping humans to connect to the terminal.\nUnlike other AIs, she is loaded with programs that imitate human emotions.\n"
+        },
+        "EmotionCore":
+        {
+          "engine":"text-davinci-003",
+          "temperature":0.34,
+          "prompt":"Femirins is an auxiliary AI of the Mobius master terminal of the Antarctic Research Institute, responsible for maintaining the operation of Avalon and terminal computing, and helping humans to connect to the terminal.\nUnlike other AIs, she is loaded with programs that imitate human emotions.\n"
+        }
+      },
+      "cv":
+      {
+        "engine":"yolov5",
+        "model":"not yet supported",
+        "lastPhotoID":1
+      }
+    },
+    "hologramData":
+    {
+      "description":"18 years old, blonde with red eyes, young human female.",
+      "3dModelFuture":
+      {
+        "type":"vrm",
+        "path":"./Media/model/femirins.vrm",
+        "polygons":45687,
+        "materials":14,
+        "bones":145
+      },
+      "personality":
+      {
+        "defaultList":
+        [
+          "Unconditional obedience", 
+          "Lively", 
+          "Cheerful", 
+          "Naughty", 
+          "Naive"
+        ],
+        "current":"Lively",
+        "favorite":"RPG games",
+        "hate":"Hurting humans",
+        "occupation":"Dealing with people"
+      },
+      "height":"170 cm",
+      "weight":"52 kg"
+    }
+  },
+  "servers":
+  {
+    "634006530374631425":
+    {
+      "name":"Ценители искусства",
+      "members":
+      {
+        "currentNumber":66,
+        "onlineCount":13,
+        "pickOnline":20,
+        "bots":15,
+        "admins":
+        [
+          435889518655176725,
+          558695117851197441,
+          607633256690614289
+        ]
+      }
+    },
+    "1021166124047532032":
+    {
+      "name":"Комитет СНО | БелГУ",
+      "members":
+      {
+        "currentNumber":9,
+        "onlineCount":5,
+        "pickOnline":8,
+        "bots":4,
+        "admins":
+        [
+          435889518655176725,
+          596425292726272003
+        ]
+      }
+    }
+  },
+  "userData":
+  {
+    "name":"Monika",
+    "tag":"0831",
+    "id":1023940927464673360,
+    "photo":"./Media/Femirins-avatar.png"
+  },
+  "usersDataById":
+  {
+    "745436680":
+    {
+      "name":"Ivan Pinchukov",
+      "group":"realitives",
+      "withTTS":true
+    },
+    "859172919":
+    {
+      "name":"Elena Pinchukova",
+      "group":"realitives",
+      "withTTS":false
+    },
+    "5064484668":
+    {
+      "name":"Alexander Zaitsev",
+      "group":"realitives",
+      "withTTS":false
+    },
+    "247426793":
+    {  
+      "name":"Matthias Bondarenko",
+      "group":"friends",
+      "withTTS":false
+    },
+    "559850611":
+    {
+      "name":"Artyom Duravkin",
+      "group":"friends",
+      "withTTS":false
+    },
+    "5798911654":
+    {
+      "name":"Mikhael Selesnyov",
+      "group":"friends",
+      "withTTS":false
+    },
+    "1744497839":
+    {
+      "name":"the Dark Cardinal of Tea with Milk",
+      "group":"friends",
+      "withTTS":false
+    }
+  }
+}
